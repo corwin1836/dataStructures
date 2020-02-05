@@ -24,7 +24,6 @@ public class BagActual<Item> implements Iterable<Item>{
 
         private Node current = first;
 
-
         public boolean hasNext() {
             return current != null;
         }
